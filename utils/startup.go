@@ -105,7 +105,7 @@ func setupBot(ctx *ext.Context, client *telegram.Client, u types.EffectiveChat) 
 		Message: "GIGA Helper Bot",
 	})
 	time.Sleep(time.Second * 1)
-	uname := fmt.Sprintf("@GIGA_%s%dbot", string(gotgproto.Self.FirstName[0]), time.Now().Unix())
+	uname := fmt.Sprintf("@GIGA_%s%dbot", string(gotgproto.Self.UserName), time.Now().Unix())
 	ctx.SendMessage(u.GetID(), &tg.MessagesSendMessageRequest{
 		Message: uname,
 	})
