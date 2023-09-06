@@ -8,7 +8,7 @@
      "modular",
      "productivity"
     ],
-    "repository": "https://github.com/GigaUserbot/GIGA",
+    "repository": "https://github.com/Recordu45/GIGA",
     "success_url": "https://t.me/GigaUpdates",
     "stack": "heroku-22",
     "env": {
